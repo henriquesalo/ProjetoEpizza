@@ -1,0 +1,26 @@
+#home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/img-home.jpg);
+    background-position:  bottom center;
+    background-repeat: no-repeat;
+    background-size: 230vw 75vh;
+    background-color: var(--cor4);
+    color: var(--cor6);
+    padding: 2rem 0 0 2rem;
+}
+#home h1{
+    font-size: 2rem;
+    font-weight: var(--bold);
+}
+#home p{
+    margin-bottom:2rem;
+    font-weight: var(--light);
+}
+#home a{
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 2px solid var(--cor2);
+    border-radius: 10px;
+    color: var(--cor2);
+}

@@ -1,0 +1,7 @@
+header nav{
+    background-color: var(--cor4);
+    padding: 1rem;
+}
+header nav img{
+    margin-left: 2rem;
+}

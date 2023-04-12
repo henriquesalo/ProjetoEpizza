@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(191, 109, 27);
+    font-family: var(--fonte);
+}
+.titulo{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto1 {
+    background-color: rgb(245, 247, 248);
+    padding: 5%;
+}
