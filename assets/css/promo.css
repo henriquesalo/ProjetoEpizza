@@ -3,8 +3,13 @@
     height: auto;
     background-color: var(--cor2);
     padding: 2rem;
+    overflow-x: hidden;
 }
-
+#promo h1{
+    color:var(--cor6);
+    text-align: center;
+    padding-bottom: 2rem;
+}
 #promo form{
     display: flex;
     align-items: center;
@@ -20,7 +25,6 @@
     padding: .5rem;
     border-radius: 5px;
 }
-
 #promo form input[type="submit"]{
     padding: 1rem 2rem;
     background-color: var(--cor3);

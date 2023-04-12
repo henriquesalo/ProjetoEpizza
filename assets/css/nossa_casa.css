@@ -1,0 +1,27 @@
+#nossa_casa{
+    width: 100vw;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    background-color: var(--cor4);
+    color: var(--cor6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#nossa_casa p{
+    margin: 2rem 0;
+}
+
+#nossa_casa div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#nossa_casa div img{
+    width: 80vw;
+}
