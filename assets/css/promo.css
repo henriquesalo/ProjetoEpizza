@@ -34,3 +34,9 @@
     border-radius: 15px;
     font-size: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    #promo form input[type="text"]{
+        width: 50vw;
+    }
+}

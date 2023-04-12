@@ -16,6 +16,7 @@
 }
 #cardapio p{
     margin: 2rem 0;
+    width: 80vw;
 }
 #cardapio a{
     margin-top: 2rem;

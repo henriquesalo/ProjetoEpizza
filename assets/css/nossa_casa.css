@@ -25,3 +25,13 @@
 #nossa_casa div img{
     width: 80vw;
 }
+
+@media screen and (min-width: 768px) {
+    #nossa_casa div{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #nossa_casa div img{
+        width: 40vw;
+    }
+}

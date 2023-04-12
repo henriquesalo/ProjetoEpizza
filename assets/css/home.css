@@ -1,6 +1,6 @@
 #home{
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-image: url(../img/img-home.jpg);
     background-position:  bottom center;
     background-repeat: no-repeat;
@@ -25,4 +25,11 @@
     border: 2px solid var(--cor2);
     border-radius: 10px;
     color: var(--cor2);
+}
+
+@media screen and (min-width: 768px) {
+    #home{
+        height: 100vh;
+        background-size: 120vw 75vh;
+    }
 }
