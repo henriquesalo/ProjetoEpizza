@@ -25,3 +25,15 @@
     border-radius: 10px;
     color: var(--cor2);
 }
+
+
+@media screen and (min-width:1024px) {
+    #cardapio{
+        padding: 2rem 0 0 7rem;
+        background-position: bottom right;
+    }
+    
+    #cardapio p{
+        width: 50vw;
+    }   
+}

@@ -27,3 +27,14 @@
     height: auto;
     background-color: var(--cor5);
 }
+
+@media screen and (min-width:1024px) {
+    #nosso_espaco{
+        padding-bottom: 5rem;
+        flex-direction: row;
+        gap: 5rem;
+    }
+    #nosso_espaco video{
+        width: 40vw;
+    }
+}

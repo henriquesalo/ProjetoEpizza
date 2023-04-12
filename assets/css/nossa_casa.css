@@ -35,3 +35,8 @@
         width: 40vw;
     }
 }
+@media screen and (min-width: 1024px) {
+    #nossa_casa div img{
+        width: 25vw;
+    }
+}

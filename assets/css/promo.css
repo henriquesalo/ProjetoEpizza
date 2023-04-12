@@ -23,7 +23,7 @@
     background-color: var(--cor6);
     border: none;
     padding: .5rem;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 #promo form input[type="submit"]{
     padding: 1rem 2rem;
@@ -38,5 +38,13 @@
 @media screen and (min-width: 768px) {
     #promo form input[type="text"]{
         width: 50vw;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #promo form{
+        flex-direction: row;
+    }
+    #promo form input[type="text"]{
+        width: 30vw;
     }
 }
