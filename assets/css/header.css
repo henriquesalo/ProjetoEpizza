@@ -38,9 +38,10 @@ header .menu-active ul{
     list-style: none;
 }
 
-header .menu-active ul li{
+header .menu-active ul li a{
     font-size: 1.3rem;
     color: var(--cor5);
+    text-decoration: none;
 }
 
 header #close{
@@ -80,5 +81,6 @@ header #close{
     }
     header nav .desktop li a{
         color: white;
+        text-decoration: none;
     }
 }
